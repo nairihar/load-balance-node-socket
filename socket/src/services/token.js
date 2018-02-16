@@ -14,6 +14,6 @@ export const verify = token => {
 
 export const checkExpired = token => {
   const res = verify(token);
-  const expired = Date.now() > res.exp;
+  const expired = Date.now() > (res.exp * 1000); //ms
   return expired;
 };
