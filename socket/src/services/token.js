@@ -15,4 +15,5 @@ export const verify = token => {
 export const checkExpired = token => {
   const res = verify(token);
   const expired = Date.now() > res.exp;
+  return expired;
 };
