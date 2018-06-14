@@ -1,6 +1,5 @@
-# slTest
+# Load Balancing NodeJS/Socket
 
-Do Not Judge Strictly))
 Because for me the important part here is project flow not he source code.
 
 1) install mongodb
